@@ -1,31 +1,110 @@
 body {
-    margin: 0px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive, serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Montaga', sans-serif;
+}
+
+h3 {
+    font-family: 'Montaga', sans-serif;
+    font-size: 1.75rem;
 }
 
 p {
-    margin-top: 5px;
+    font-family: "Montaga", sans-serif;
+    font-size: 1.5rem;
 }
 
+hr {
+    background-color: #1b262c;
+    height: 1px;
+    border: none;
+}
+
+a {
+    color: #00adb5;
+}
+
+.name {
+    color: #00adb5;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.description {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #00adb5;
+    font-weight: normal;
+}
+
+.profile-pic {
+    height: 250px;
+}
+
+.piano {
+    width: 9rem;
+    height: 9rem;
+}
+
+.computer-pic {
+    width: 9rem;
+    height: 9rem;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 25px;
+    right: 500px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 450px;
+    top: 325px;
+}
+
+.credit {
+    padding-top: 30px;
+    font-size: 0.75rem;
+}
+
+.mountain {
+    position: relative;
+    margin: auto;
+}
 
 .top-container {
-    background-color: #00adb5;
-    padding-left: 40%;
-    margin: 10px;
+    background-color: #142850;
+    padding-top: 100px;
+    position: relative;
 }
 
 .middle-container {
-    background-color: black;
-    height: 200px;
-    width: 200px;
+    padding-top: 25px;
+    background-color: #27496d;
+}
+
+.contact-me {
+    padding-bottom: 20px;
 }
 
 .bottom-container {
-    background-color: aquamarine;
-    height: 200px;
-    width: 200px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    background-color: rgb(22, 21, 21);
+}
+
+.trademark {
+    margin-bottom: 0;
 }
