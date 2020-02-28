@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: 'Montaga', sans-serif;
 }
 
@@ -25,13 +25,18 @@ p {
 }
 
 hr {
-    background-color: #1b262c;
-    height: 1px;
-    border: none;
+    border: dotted #EAF6F6 6px;
+    width: 10%;
+    border-bottom: none;
 }
 
 a {
-    color: #00adb5;
+    color: #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
 }
 
 .name {
@@ -52,13 +57,17 @@ a {
 }
 
 .piano {
-    width: 9rem;
-    height: 9rem;
+    width: 12rem;
+    height: 12rem;
+    float: right;
+    padding-right: 20px;
 }
 
 .computer-pic {
-    width: 9rem;
-    height: 9rem;
+    width: 12rem;
+    height: 12rem;
+    padding-right: 20px;
+    float: left;
 }
 
 .top-cloud {
@@ -74,7 +83,8 @@ a {
 }
 
 .credit {
-    padding-top: 30px;
+    padding-top: 15px;
+    margin-bottom: 100px;
     font-size: 0.75rem;
 }
 
@@ -83,8 +93,26 @@ a {
     margin: auto;
 }
 
+.skills {
+    margin-top: 100px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.about-me {
+    width: 35%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
 .top-container {
-    background-color: #142850;
+    background-color: #EAF6F6;
     padding-top: 100px;
     position: relative;
 }
@@ -95,7 +123,8 @@ a {
 }
 
 .contact-me {
-    padding-bottom: 20px;
+    margin-top: 100px;
+    padding-bottom: 75px;
 }
 
 .bottom-container {
@@ -105,6 +134,33 @@ a {
     background-color: rgb(22, 21, 21);
 }
 
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:18px;
+	font-weight:bold;
+	padding:14px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link {
+    margin: 25px;
+}
+
 .trademark {
     margin-bottom: 0;
+    color: #EAF6F6;
 }
