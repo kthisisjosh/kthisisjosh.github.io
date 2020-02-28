@@ -93,6 +93,36 @@ a:hover {
     margin: auto;
 }
 
+.projects {
+    position: static;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.uber-driver-sim {
+    width: 50%;
+    margin: 100px auto 20px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.uber-github {
+    position: relative;
+    left: 96px;
+    top: 15px;
+    font-size: 35px;
+}
+
+.uber-driver-title {
+    margin: auto;
+}
+
+.uber-sim-gif {
+    float: left;
+    margin-right: 20px;
+    border: black 15px;
+}
+
 .skills {
     margin-top: 100px;
 }
