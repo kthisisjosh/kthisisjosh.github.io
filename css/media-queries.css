@@ -11,6 +11,7 @@
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
 
+
     /* header styles
    ------------------------------------------------------------------ */
    header .banner-text h1 {
@@ -25,6 +26,34 @@
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
 
+     #portfolio .project-caption {
+     text-align: left;
+     margin-left: 0 !important;
+     font-size: 18px;
+     width: 80vw !important;
+  }
+
+  .button-caption {
+     font-size: 15px !important;
+  }
+
+  .item-img {
+     width: 70vw !important;
+  }
+
+  .item-wrap {
+     width: 70vw !important;
+  }
+
+  .btn {
+     width: 45vw !important;
+     height: 5vh !important;
+     margin-left: 6vw !important;
+  }
+
+  .btn-container {
+     margin-bottom: 5vh;
+  }
     /* header styles
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
@@ -96,6 +125,26 @@
 ---------------------------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
+
+  #portfolio .project-caption {
+     text-align: center;
+     font-size: 18px;
+     width: 80vw !important;
+  }
+
+  .button-caption {
+     font-size: 10px !important;
+  }
+
+  .btn {
+     width: 50vw !important;
+     height: 5vh !important;
+     margin-left: 24vw !important;
+  }
+
+  .btn-container {
+     margin-bottom: 5vh;
+  }
 
    /* mobile navigation
    -------------------------------------------------------------------- */
