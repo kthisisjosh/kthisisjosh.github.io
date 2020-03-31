@@ -25,6 +25,7 @@ export default class Header extends Component {
                     )
                   }
                </ul>
+               <h3>Contact me: <a href="mailto: hello@joshbautista.com">hello@joshbautista.com</a></h3>
             </div>
          </div>
 

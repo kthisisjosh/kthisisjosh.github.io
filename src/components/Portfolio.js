@@ -5,10 +5,10 @@ export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="portfolio">
+      <section id="portfolio" style={{backgroundColor: "#0e1010"}}>
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1 style={{fontSize: "35px", color: "black"}}>What I've Done</h1>
+          <h1 style={{fontSize: "35px", color: "#b5b0a7"}}>What I've Done</h1>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
@@ -22,8 +22,8 @@ export default class Porfolio extends Component {
                       <img style={{height: "35vh", width: "33vw"}} src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
+                          <h5 style={{color: "white"}}>{item.name}</h5>
+                          <p style={{color: "white"}}>{item.description}</p>
                         </div>
                       </div>
                     </a>
@@ -33,7 +33,7 @@ export default class Porfolio extends Component {
                     </Grid>
 
                     <Grid item xs={6}>
-                      <Typography style={{marginLeft:"10vw", width: "25vw"}} variant="h4">{item.caption}</Typography>
+                      <Typography style={{marginLeft:"10vw", width: "25vw", color: "#b5b0a7"}} variant="h4">{item.caption}</Typography>
                       <Button style={{marginLeft:"10vw", marginTop: "5vw", width: "12.5vw", height: "3vw", marginBottom: "3vh"}} variant="contained" color="primary" href={item.github} target="_blank">
                         <Typography variant="h5" style={{color: "white"}}>
                           View on Github
