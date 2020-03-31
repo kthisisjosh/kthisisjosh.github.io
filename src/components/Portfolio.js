@@ -34,12 +34,12 @@ export default class Porfolio extends Component {
 
                     <Grid item xs={6}>
                       <Typography style={{marginLeft:"10vw", width: "25vw"}} variant="h4">{item.caption}</Typography>
-                      <Button style={{marginLeft:"10vw", marginTop: "5vw", width: "12.5vw", height: "3vw", marginBottom: "3vh"}} variant="contained" color="primary" href={item.github}>
+                      <Button style={{marginLeft:"10vw", marginTop: "5vw", width: "12.5vw", height: "3vw", marginBottom: "3vh"}} variant="contained" color="primary" href={item.github} target="_blank">
                         <Typography variant="h5" style={{color: "white"}}>
                           View on Github
                         </Typography>
                       </Button>
-                      <Button style={{marginLeft:"10vw", width: "12.5vw", height: "3vw"}} variant="contained" color="primary" href={item.demo}>
+                      <Button style={{marginLeft:"10vw", width: "12.5vw", height: "3vw"}} variant="contained" color="primary" href={item.demo} target="_blank">
                         <Typography variant="h5" style={{color: "white"}}>
                           Live Demo
                         </Typography>
