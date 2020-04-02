@@ -15,35 +15,37 @@ export default class Porfolio extends Component {
               return(
                 <React.Fragment>
                   <Grid container>
-                    <Grid item xs={6}>
-                      <div style={{height: "35vh", width: "35vw"}} className="columns portfolio-item">
+                    <Grid item md={6} xs={12}>
+                      <div style={{height: "35vh", width: "33.4vw"}} className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-01">
-                      <img style={{height: "35vh", width: "33vw"}} src={`${item.imgurl}`} className="item-img"/>
+
+                      <img style={{height: "35vh"}} src={`${item.imgurl}`} className="item-img" alt="project"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5 style={{color: "white"}}>{item.name}</h5>
                           <p style={{color: "white"}}>{item.description}</p>
                         </div>
                       </div>
-                    </a>
+
                     
                   </div>
                 </div>
                     </Grid>
 
-                    <Grid item xs={6}>
-                      <Typography style={{marginLeft:"10vw", width: "25vw", color: "#b5b0a7"}} variant="h4">{item.caption}</Typography>
-                      <Button style={{marginLeft:"10vw", marginTop: "5vw", width: "12.5vw", height: "3vw", marginBottom: "3vh"}} variant="contained" color="primary" href={item.github} target="_blank">
-                        <Typography variant="h5" style={{color: "white"}}>
-                          View on Github
-                        </Typography>
+                    <Grid item md={6} xs={12}>
+                      <Typography className="project-caption" style={{marginLeft:"10vw", width: "25vw", color: "#b5b0a7"}} variant="h4">{item.caption}</Typography>
+                        <div className="btn-container">
+                        <Button className="btn" style={{marginLeft:"10vw", marginTop: "5vw", width: "12.5vw", height: "3vw", marginBottom: "3vh"}} variant="contained" color="primary" href={item.github} target="_blank">
+                          <Typography className="button-caption" variant="h5" style={{color: "white"}}>
+                            View on Github
+                          </Typography>
+                        </Button>
+                        <Button className="btn" style={{marginLeft:"10vw", width: "12.5vw", height: "3vw"}} variant="contained" color="primary" href={item.demo} target="_blank">
+                          <Typography className="button-caption" variant="h5" style={{color: "white"}}>
+                            Live Demo
+                          </Typography>
                       </Button>
-                      <Button style={{marginLeft:"10vw", width: "12.5vw", height: "3vw"}} variant="contained" color="primary" href={item.demo} target="_blank">
-                        <Typography variant="h5" style={{color: "white"}}>
-                          Live Demo
-                        </Typography>
-                      </Button>
+                      </div>
                     </Grid>
                   </Grid>
                 </React.Fragment>
