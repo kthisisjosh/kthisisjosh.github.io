@@ -17,7 +17,7 @@ export default  class Resume extends Component {
                {resumeData.skillsDescription}
                </p>
 
-   				<div className="bars">
+   				<div className="bars" style={{marginTop: "-50px"}}>
 
    				   <ul className="skills">
 
@@ -25,10 +25,10 @@ export default  class Resume extends Component {
                 <p>Python, Java, SQL</p>
 
                 <h1>Web/Frameworks</h1>
-                <p>React, Node.js, Express.js, Javascript, MongoDB</p>
+                <p>React.js, Redux, Node.js, Express.js, Javascript, Jest, MongoDB, MySQL</p>
 
                 <h1>Other</h1>
-                <p>Docker, Git</p>
+                <p>Docker, Git, LaTeX</p>
 
    					</ul>
 
