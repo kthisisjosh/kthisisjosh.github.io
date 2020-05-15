@@ -43,6 +43,14 @@ let resumeData = {
         "demo": "https://covid19-timeline.netlify.com/",
         "github": "https://github.com/kthisisjosh/COVID19-Timeline"
       },
+      {
+        "name":"Advice Tracker",
+        "description":"Web App",
+        "imgurl":"images/portfolio/advicetracker.jpg",
+        "caption": "Track, share, and discover advice from any category you wish.",
+        "demo": "https://advicetracker.life/",
+        "github": "https://github.com/kthisisjosh/AdviceTracker"
+      }
     ]
   }
   
