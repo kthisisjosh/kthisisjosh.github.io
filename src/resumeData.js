@@ -42,7 +42,7 @@ let resumeData = {
         "caption": "View all of the world-wide events pertaining to COVID-19 as it develops.",
         "demo": "https://covid19-timeline.netlify.com/",
         "github": "https://github.com/kthisisjosh/COVID19-Timeline"
-      }
+      },
     ]
   }
   
