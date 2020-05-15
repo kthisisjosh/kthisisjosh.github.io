@@ -6,7 +6,7 @@ let resumeData = {
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/joshua-bautista-a4196716a/",
+          "url":"https://www.linkedin.com/in/josh-bautista/",
           "className":"fa fa-linkedin"
         },
         {
